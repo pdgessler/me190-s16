@@ -46,8 +46,7 @@
 		content: none; }
 	table {
 		margin-top: 5px;
-		border-collapse: separate;
-		border-spacing: 10em;
+		border-collapse: collapse;
 	}
 
   dl dt {
