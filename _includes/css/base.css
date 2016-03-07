@@ -45,7 +45,8 @@
 		content: '';
 		content: none; }
 	table {
-		border-collapse: collapse;
+		margin-top: 5px;
+		border-collapse: separate;
 		border-spacing: 10em;
 	}
 
@@ -63,15 +64,23 @@
 		padding-left: 16px;
 	}
 
-	thead {
+	table thead {
 		font-weight: bold;
 		border-top: solid 2px;
 		border-left: 0.3em;
 		border-bottom: solid 1px;
 	}
 
-  tbody {
+  table tbody {
 		border-bottom: solid 2px;
+	}
+
+	td {
+		padding: 1px 0.5em;
+	}
+
+	th {
+		padding: 1px 0.5em;
 	}
 
 /* #Basic Styles
