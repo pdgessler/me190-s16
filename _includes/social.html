@@ -1,5 +1,19 @@
-Follow me:
+{% if site.data.theme.show_atom_feed %}
+<p>RSS Feed:
+  <div id="stalker">
+  <a title="Atom feed" id="atom" href="/atom.xml">
+    <i class="fa fa-rss-square"></i>
+  </a></div></p>
+{% endif %}
+
+<p>Contact:
 <div id="stalker">
+  {% if site.data.theme.email %}
+  <a title="Email {{ site.data.theme.author }}" href="mailto:{{ site.data.theme.email }}">
+    <i class="fa fa-envelope-square"></i>
+  </a>
+  {% endif %}
+
   {% if site.data.theme.social.github %}
   <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
     <i class="fa fa-github-square"></i>
@@ -19,7 +33,7 @@ Follow me:
   {% endif %}
 
   {% if site.data.theme.social.stackexchange %}
-  <a title="{{ site.data.theme.name }} on Stack Exchange" href="https://stackexchange.com/users/{{site.data.theme.social.stackexchange }}">
+  <a title="{{ site.data.theme.author }} on Stack Exchange" href="https://stackexchange.com/users/{{site.data.theme.social.stackexchange }}">
     <i class="fa fa-stack-exchange"></i>
   </a>
   {% endif %}
@@ -49,7 +63,7 @@ Follow me:
   {% endif %}
 
   {% if site.data.theme.social.linkedin %}
-  <a title="{{ site.data.theme.name }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.data.theme.social.linkedin }}">
+  <a title="{{ site.data.theme.author }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.data.theme.social.linkedin }}">
     <i class="fa fa-linkedin-square"></i>
   </a>
   {% endif %}
@@ -65,10 +79,4 @@ Follow me:
     <i class="fa fa-flickr"></i>
   </a>
   {% endif %}
-
-  {% if site.data.theme.show_atom_feed %}
-  <a title="Atom feed" id="atom" href="/atom.xml">
-    <i class="fa fa-rss-square"></i>
-  </a>
-  {% endif %}
-</div>
+</div></p>
