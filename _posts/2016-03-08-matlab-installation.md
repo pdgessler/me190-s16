@@ -5,7 +5,7 @@ categories: doc
 ---
 
 A few notes about installing MATLAB on your MSOE laptops.
-You can follow the instructions at MSOE Community's [How To Install MATLAB][1] webpage.
+You can follow the instructions at MSOE Community's [How To Install MATLAB](https://community.msoe.edu/docs/DOC-5654 "How To Install MATLAB | MSOE Community") webpage.
 
 There are currently two versions of MATLAB on the MSOE application server.
 Please install the newest one available.
@@ -16,5 +16,3 @@ It's best to do this on campus (attempting over VPN will be unbearably slow) usi
 The installer performs several larger downloads, so ethernet will be faster and more reliable than wireless.
 Please consult me or the IT HelpDesk if you run into problems.
 We'll be needing this software for class.
-
-[1]: https://community.msoe.edu/docs/DOC-5654 "How To Install MATLAB | MSOE Community"
