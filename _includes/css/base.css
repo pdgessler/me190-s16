@@ -46,6 +46,7 @@
 		content: none; }
 	table {
 		margin-top: 5px;
+		margin-bottom: 5px;
 		border-collapse: collapse;
 	}
 
@@ -358,6 +359,16 @@
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
+
+/* #Rotation
+================================================== */
+.rotate {
+    display:inline-block;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
 
 /* #Misc
 ================================================== */
