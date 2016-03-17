@@ -1,4 +1,6 @@
 _site/
+_grades/
+_class/
 .DS_Store
 .*.swp
 .idea
